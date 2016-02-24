@@ -13,6 +13,7 @@ Owner Name: Hossain Mohammad Faysal
 Profile: https://www.facebook.com/hmfaysal
 Version: 1.1
 Description: Awesome dude, awesome life
+THIS IH THE PAGE.HTML
 ====================================================
 -->
 <head>
@@ -22,10 +23,8 @@ Description: Awesome dude, awesome life
 {% include header.html %}
 <div id="main" class="content" role="main" itemprop="mainContentOfPage">
     <div class="container">
-
         <div class="row">
             <article class="page col-md-8 col-md-offset-2">
-
 		            {% if site.wpm %}
 		            {% assign readtime = page.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
 		            {% else %}
